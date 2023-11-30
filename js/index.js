@@ -5,6 +5,8 @@ console.log(" ")
 
 let opc; 
 
+
+
 do{
 
 console.log("1_ Dolar. 0,0028 usd  ");
@@ -20,16 +22,16 @@ opc = parseInt(prompt("Ingrese la opcion del tipo de moneda que desea convertir.
 
 switch(opc){
 
-    case 1: console.log(" La conversion a dolares es: " + (pesos*0.0028) );
+    case 1: console.log(" La conversion a dolares es: " + converDolar(pesos) );
     break;
 
-    case 2: console.log(" La conversion a euros es: " + (pesos*0.0025));
+    case 2: console.log(" La conversion a euros es: " + converEuro(pesos));
     break;
 
-    case 3: console.log(" La conversion a yenes es: " + (pesos*0.41));
+    case 3: console.log(" La conversion a yenes es: " + converYenes(pesos));
     break;
 
-    case 4: console.log(" La conversion a reales es: " + (pesos*0.14));
+    case 4: console.log(" La conversion a reales es: " + converReal(pesos));
     break;
 
     case 5: console.log("Muchas Gracias!");
@@ -39,4 +41,17 @@ switch(opc){
 }
 }while(opc !=5);
 
+function converDolar (pesos){
+    return pesos*0.0028;
+}
+
+function converEuro (pesos){
+    return pesos*0.0025;
+}
+function converYenes (pesos){
+    return pesos*0.41;
+}
+function converReal (pesos){
+    return pesos*0.14;
+}
 
