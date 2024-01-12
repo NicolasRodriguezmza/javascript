@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+#agregarPeliculas{
+    
+    margin: 10px;
+
+
+}
+h2{
+    padding: 25px;
+}
+
+#formularios{
+
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+
+}
+
+#formulario button{
+    color: white;
+    font-weight: 400;
+    background-color: rgb(26, 148, 73);
+    border-radius: 5px;
+    width: 100px;
+    height: 45px;
+    margin-left: 20px;
+    
+}
+
+#formulario label{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+}
+
+#formulario input{
+
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+#formarioParaEliminar button{
+    color: white;
+    font-weight: 400;
+    background-color: rgb(197, 56, 56);
+    border-radius: 5px;
+    width: 100px;
+    height: 45px;
+    margin-left: 20px;
+}
