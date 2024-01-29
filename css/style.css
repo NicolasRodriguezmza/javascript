@@ -47,18 +47,43 @@ h2{
 }
 
 #formulario input{
-
+    
     padding: 5px;
     border-radius: 10px;
 
 }
 
-#formarioParaEliminar button{
+.contenedor{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    border: rgb(121, 138, 163) 5px solid;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 20%;
+}
+.peliculass{
+    font-size: 30px;
+}
+
+
+.botonParaEliminar{
     color: white;
     font-weight: 400;
     background-color: rgb(197, 56, 56);
     border-radius: 5px;
     width: 100px;
     height: 45px;
-    margin-left: 20px;
+    margin-left: 20px
+
+}
+.botonParaModificar{
+    color: white;
+    font-weight: 400;
+    background-color: rgb(66, 64, 189);
+    border-radius: 5px;
+    width: 100px;
+    height: 45px;
+    margin-left: 20px
 }

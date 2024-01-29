@@ -8,15 +8,12 @@ export const app = () => {
     console.log("Se ejecuta la aplicacion.");
 
     htmlElements.formularioParaAgregar.onsubmit = (event) => {
-
         event.preventDefault();
-
         peliculasManager.agregarPeliculas();
-
         console.log("Se ha agregado una pelicula.");
-
-
-        
     }
+
+     peliculasManager.mostrarPeliculas();
+
 
 }
